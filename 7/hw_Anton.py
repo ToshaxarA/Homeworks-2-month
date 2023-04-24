@@ -46,7 +46,7 @@ with open(r"C:\Users\Антон\Desktop\Geeks\ДЗ_2_месяц\7\MOCK_DATA.txt"
         a[1] = a[3]
         a[3] = a[4]
         # print(a)
-        obj= Data({a[0]},{a[1]},{a[2]},{a[3]})
+        obj= Data(a[0],a[1],a[2],a[3])
         spisok_obj.append(obj)
     
         my_file1 = open("Фамилии и имена.txt", "w+")
